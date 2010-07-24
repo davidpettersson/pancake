@@ -1,0 +1,22 @@
+Configuration Management
+David Pettersson <david@avendi.se>
+________________________________________________________________________
+
+Branch names:
+
+ - pancake-1
+ - pancake-2
+
+and so on.
+
+Tag names:
+
+ - pancake-1.0
+ - pancake-1.1
+ - pancake-1.2
+
+and so on.
+
+We will not use the Maven Release plugin; the artifact versions don't
+correlate with the Android manifests properly, so just do it manually.
+

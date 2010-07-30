@@ -31,7 +31,7 @@ class CardFaceAdapter extends BaseAdapter {
 
     private final Context context;
     private final String[] faces = new String[]{
-        "0", "½", "1", "2", "3", "5", "8", "13", "20", "40", "100", "\u221E", "?",};
+        "0", "\u00BD", "1", "2", "3", "5", "8", "13", "20", "40", "100", "\u221E", "\u2668", "?",};
 
     public CardFaceAdapter(Context context) {
         this.context = context;

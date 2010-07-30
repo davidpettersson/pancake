@@ -38,6 +38,7 @@
 
     <properties>
         <project.license>apache20</project.license>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>

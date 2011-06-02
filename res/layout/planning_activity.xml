@@ -4,11 +4,11 @@
     android:id="@+id/planning_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <Gallery android:id="@+id/gallery"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent" 
+        android:keepScreenOn="true"/>
 
 </LinearLayout>

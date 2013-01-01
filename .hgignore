@@ -1,2 +1,4 @@
-~$
-target/
+syntax: glob
+*~
+bin/
+gen/
